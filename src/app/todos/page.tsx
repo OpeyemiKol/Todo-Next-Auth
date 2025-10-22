@@ -92,7 +92,7 @@ const TodosPage = () => {
       <div className="mb-6">
         <button
           onClick={() => router.push("/")} // ✅ back to landing page
-          className="inline-flex cursor-pointer items-center gap-2 bg-gradient-to-r from-blue-700 to-purple-700 hover:from-purple-700 hover:to-blue-700 text-white px-5 py-2.5 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 text-sm sm:text-base"
+          className="inline-flex cursor-pointer items-center gap-2 bg-linear-to-r from-blue-700 to-purple-700 hover:from-purple-700 hover:to-blue-700 text-white px-5 py-2.5 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 text-sm sm:text-base"
         >
           <svg
             className="w-5 h-5"
